@@ -12,10 +12,10 @@ Periodic Table of the Elements is an open-source sample app from Microsoft's Mix
 You can use this project's components to create your own mixed reality app experiences. 
 
 # Supported Unity version
-The current supported version of Unity is [**Unity 2019.2.x**](https://unity3d.com/unity/qa/lts-releases?version=2019.2). 
+The current supported version of Unity is [**Unity 2019.3.x**](https://unity3d.com/unity/qa/lts-releases?version=2019.2). 
 
 # Used MRTK version
-The project(master branch) is based on [**MRTK v2.1.0**](https://github.com/microsoft/MixedRealityToolkit-Unity/releases/tag/v2.1.0). 
+The project is based on [**MRTK v2.1.0**](https://github.com/microsoft/MixedRealityToolkit-Unity/releases/tag/v2.1.0). 
 
 # Supported device
 - [HoloLens 2](https://www.hololens.com)
