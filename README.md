@@ -1,4 +1,4 @@
-<img src="https://github.com/Microsoft/MRDL_Unity_Surfaces/blob/master/External/ReadMeImages/Surfaces_Hero.jpg" alt="Surfaces">
+<img src="https://github.com/Microsoft/MRDL_Unity_Surfaces/blob/master/External/ReadMeImages/Surfaces_Hero.png" alt="Surfaces">
 
 # Mixed Reality Design Labs
 This repo is where Microsoft's Windows Mixed Reality Design team publishes sample apps and experiments. Find out details on https://developer.microsoft.com/en-us/windows/mixed-reality/periodic_table_of_the_elements
