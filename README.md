@@ -1,7 +1,7 @@
 <img src="https://github.com/Microsoft/MRDL_Unity_Surfaces/blob/master/External/ReadMeImages/Surfaces_Hero.png" alt="Surfaces">
 
 # Mixed Reality Design Labs
-This repo is where Microsoft's Windows Mixed Reality Design team publishes sample apps and experiments. Find out details on https://developer.microsoft.com/en-us/windows/mixed-reality/periodic_table_of_the_elements
+This repo is where Microsoft's Windows Mixed Reality Design team publishes sample apps and experiments.
 
 # Surfaces
 Surfaces is an open-source sample app from Microsoft's Mixed Reality Design Labs. It demonstrates how to use **[Mixed Reality Toolkit(MRTK)](https://github.com/Microsoft/MixedRealityToolkit-Unity)**'s input system and building blocks to create an app experience for HoloLens 2. In this project, you can find the examples of:
