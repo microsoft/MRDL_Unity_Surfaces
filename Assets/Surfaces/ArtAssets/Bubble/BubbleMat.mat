@@ -1,0 +1,259 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: BubbleMat
+  m_Shader: {fileID: 4800000, guid: 8f719f6b0cb60814d87de022d8a5543c, type: 3}
+  m_ShaderKeywords: _ALPHAPREMULTIPLY_ON _BORDER_LIGHT_USES_HOVER_COLOR _DIRECTIONAL_LIGHT
+    _FORCEPERPIXEL_ON _REFLECTIONS _RIM_LIGHT _SHADE4_ON _SPECULARHIGHLIGHTS_ON _SPECULAR_HIGHLIGHTS
+    _TEXTURE_ENABLE__ON _USEAMBIENT_ON _USEDIFFUSE_ON _USEMAINCOLOR_ON _USEREFLECTIONS_ON
+    _USERIMLIGHTING_ON
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 1
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _BottomFreezeTex:
+        m_Texture: {fileID: 2800000, guid: c6f568c541c517d40ad314c62a2ecc63, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _BottomRiskTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _BumpMap:
+        m_Texture: {fileID: 2800000, guid: 2438cad1bc9ef854aa7279b713da0a9f, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Cube:
+        m_Texture: {fileID: 8900000, guid: 3f788d92a91ff9d40a66156e743f0eeb, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _CubeMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailAlbedoMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailMask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailNormalMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _EmissionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Environment_:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _FlowTex:
+        m_Texture: {fileID: 2800000, guid: a1b95707ec1a8f941af6f451ae5bd266, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _FreezeTex:
+        m_Texture: {fileID: 2800000, guid: b7e83504c32ca994493e30ba0af98a5c, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _GazeTex:
+        m_Texture: {fileID: 2800000, guid: a7d57d38230758545baa2ebc5c20b496, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _GlossMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _HealthTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _LightMapTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MetallicGlossMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _NormalMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _OcclusionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ParallaxMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _RiskTex:
+        m_Texture: {fileID: 2800000, guid: a72b6f19a1346c3419cb1d1e8553fc79, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SideFreezeTex:
+        m_Texture: {fileID: 2800000, guid: c6f568c541c517d40ad314c62a2ecc63, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SideRiskTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SpecGlossMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SpecularMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Texture:
+        m_Texture: {fileID: 2800000, guid: 1443b22b919aede4ca14ca5e3bf81096, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Texture_:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _TopFreezeTex:
+        m_Texture: {fileID: 2800000, guid: c6f568c541c517d40ad314c62a2ecc63, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _TopRiskTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _AlbedoAlphaSmoothness: 0
+    - _AlphaTest: 0
+    - _BlendOp: 0
+    - _BorderLight: 0
+    - _BorderLightUsesHoverColor: 1
+    - _BorderMinValue: 0.775
+    - _BorderWidth: 0.791
+    - _BumpScale: 1
+    - _CalibrationSpaceReflections: 0
+    - _ClippingPlane: 0
+    - _ClippingPlaneBorder: 0
+    - _ClippingPlaneBorderWidth: 0.025
+    - _ColorWriteMask: 15
+    - _Cull: 2
+    - _CullMode: 2
+    - _Cutoff: 0.5
+    - _DetailNormalMapScale: 1
+    - _DirectionalLight: 1
+    - _Distance_Power_: 0.19
+    - _Distance_Scale_: 1
+    - _DstBlend: 10
+    - _EdgeLength: 9
+    - _EnableEmission: 1
+    - _EnableHoverColorOverride: 0
+    - _EnableLightMap: 0
+    - _EnableNormalMap: 0
+    - _ForcePerPixel: 1
+    - _Freeze: 0
+    - _FreezeAmount: 1
+    - _Gaze: 0
+    - _GazeTexScale: 1
+    - _Gloss: 8.18
+    - _GlossMapScale: 1
+    - _GlossPow: 0.5
+    - _Glossiness: 0.8
+    - _GlossyReflections: 1
+    - _Highlight: 0
+    - _HoverLight: 0
+    - _IOR_: 2.52
+    - _InnerTransparency: 1
+    - _Inside: 0
+    - _InvFade: 1
+    - _Metallic: 0.5
+    - _Mode: 3
+    - _NoiseAmount: 0.01
+    - _NoiseScale: 12
+    - _NoiseSpeed: 0.05
+    - _OcclusionStrength: 1
+    - _OutlineWidth: 0.067
+    - _Parallax: 0.02
+    - _Phong: 1
+    - _ReflectionScale: 2
+    - _Reflection_: 0.99
+    - _Reflections: 1
+    - _Refraction: 0
+    - _Refraction_: 0.98
+    - _RefractiveIndex: 1.1
+    - _RenderQueueOverride: -1
+    - _Reverse_: 0
+    - _Rim: 1.2
+    - _RimLight: 1
+    - _RimPower: 2
+    - _RiskAmount: 1
+    - _RoundCornerMargin: 0
+    - _RoundCornerRadius: 0.25
+    - _RoundCorners: 0
+    - _Shade4: 1
+    - _Smoothness: 1
+    - _SmoothnessTextureChannel: 0
+    - _SpecPow: 0.5
+    - _Specular: 66.9
+    - _SpecularHighlights: 1
+    - _Speed: 0.5
+    - _SrcBlend: 1
+    - _Strength: 1.5
+    - _TexScale: 5
+    - _Texture_Enable_: 1
+    - _Tile: 5
+    - _Transparency: 1
+    - _UVSec: 0
+    - _UseAmbient: 1
+    - _UseBumpMap: 0
+    - _UseDiffuse: 1
+    - _UseEmissionColor: 0
+    - _UseEmissionMap: 0
+    - _UseGlossMap: 0
+    - _UseMainColor: 1
+    - _UseMainTex: 0
+    - _UseOcclusionMap: 0
+    - _UseReflections: 1
+    - _UseRimLighting: 1
+    - _UseSpecularMap: 0
+    - _UseVertexColor: 0
+    - _VertColorBlend: 0.5
+    - _ZTest: 4
+    - _ZWrite: 0
+    m_Colors:
+    - _Box_Center_: {r: 0, g: 0, b: 0, a: 1}
+    - _Box_Size_: {r: 1, g: 1, b: 1, a: 1}
+    - _ClipPlane: {r: 0, g: 1, b: 0, a: 0}
+    - _ClippingPlaneBorderColor: {r: 1, g: 0.2, b: 0, a: 1}
+    - _Color: {r: 1, g: 1, b: 1, a: 0.097}
+    - _CubeColor: {r: 1, g: 1, b: 1, a: 1}
+    - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
+    - _EmissiveColor: {r: 0.09026375, g: 0, b: 0.14705884, a: 1}
+    - _HoverColorOverride: {r: 1, g: 1, b: 1, a: 1}
+    - _OutlineColor: {r: 0, g: 0.61109924, b: 1, a: 1}
+    - _ReflectionOffset: {r: 0, g: 0, b: 0, a: 1}
+    - _Refraction_Color_: {r: 1, g: 1, b: 1, a: 1}
+    - _RimColor: {r: 0.759434, g: 0.96690303, b: 1, a: 1}
+    - _SpecColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+    - _TexScrollSpeed: {r: 0.5, g: 0.6, b: 0.2, a: 0.1}
+    - _TextureScaleOffset: {r: 1, g: 1, b: 0, a: 0}
+    - _TintColor: {r: 0.5, g: 0.5, b: 0.5, a: 0.5}
