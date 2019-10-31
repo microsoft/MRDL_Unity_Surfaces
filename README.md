@@ -1,5 +1,3 @@
-<img src="https://github.com/Microsoft/MRDL_Unity_Surfaces/blob/master/External/ReadMeImages/Surfaces_Hero.png" alt="Surfaces">
-
 # Mixed Reality Design Labs
 This repo is where Microsoft's Windows Mixed Reality Design team publishes sample apps and experiments.
 
@@ -9,6 +7,15 @@ Surfaces is an open-source sample app from Microsoft's Mixed Reality Design Labs
 - Use MRTK's **[Standard Shader](https://microsoft.github.io/MixedRealityToolkit-Unity/Documentation/README_MRTKStandardShader.html)** for performant graphics.
 
 You can use this project's components to create your own mixed reality app experiences. 
+
+<img src="External/ReadMeImages/MRDL_Surfaces_1.jpg" alt="Surfaces">
+<img src="External/ReadMeImages/MRDL_Surfaces_2.jpg" alt="Surfaces">
+<img src="External/ReadMeImages/MRDL_Surfaces_3.jpg" alt="Surfaces">
+<img src="External/ReadMeImages/MRDL_Surfaces_4.jpg" alt="Surfaces">
+<img src="External/ReadMeImages/MRDL_Surfaces_5.jpg" alt="Surfaces">
+<img src="External/ReadMeImages/MRDL_Surfaces_6.jpg" alt="Surfaces">
+<img src="External/ReadMeImages/MRDL_Surfaces_7.jpg" alt="Surfaces">
+
 
 # Supported Unity version
 The current supported version of Unity is [**Unity 2019.3.x**](https://unity3d.com/unity/qa/lts-releases?version=2019.2). 
