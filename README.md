@@ -31,7 +31,7 @@ The project is based on [**MRTK v2.1.0**](https://github.com/microsoft/MixedReal
 ## Sample app - Periodic Table of the Elements ##
 <img src="https://github.com/Microsoft/MRDesignLabs_Unity_PeriodicTable/blob/master/External/ReadMeImages/PeriodicTable_Hero.jpg" alt="Periodic Table of the Elements">
 
-https://github.com/Microsoft/MRDesignLabs_Unity_LunarModule
+https://github.com/microsoft/MRDL_Unity_PeriodicTable
 
 Periodic Table of the Elements is an open-source sample app from Microsoft's Mixed Reality Design Labs. It demonstrates how to use **[Mixed Reality Toolkit(MRTK)](https://github.com/Microsoft/MixedRealityToolkit-Unity)**'s input system and building blocks to create an app experience for HoloLens and Immersive headsets.
 
