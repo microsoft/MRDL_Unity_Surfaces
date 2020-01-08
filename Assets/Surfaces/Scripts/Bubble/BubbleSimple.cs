@@ -193,28 +193,6 @@ namespace Microsoft.MRDL
             }
         }
 
-        /*private void Update()
-        {
-            PrepareForUpdate();
-
-            radiusMultiplier = Mathf.Lerp(radiusMultiplier, 0f, deltaTime);
-
-            if (useVertexColors)
-                sphereMesh.SetColors(currentColors);
-
-            sphereMesh.SetVertices(currentVertices);
-            sphereMesh.RecalculateBounds();
-            sphereMesh.RecalculateNormals();
-            sphereMesh.RecalculateTangents();
-
-            // Do the update force work on a background thread
-            //await new WaitForBackgroundThread();
-
-            UnityEngine.Profiling.Profiler.BeginSample("Update Bubble Forces");
-            UpdateForces();
-            UnityEngine.Profiling.Profiler.EndSample();
-        }*/
-
         protected virtual async Task UpdateBubbleAsync()
         {
             while (updatingBubble)
