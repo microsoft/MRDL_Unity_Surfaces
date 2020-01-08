@@ -2,8 +2,6 @@
 // Licensed under the MIT License. See LICENSE in the project root for license information.﻿
 
 #pragma warning disable 0649 // For serialized fields
-using Microsoft.MixedReality.Toolkit;
-using Microsoft.MixedReality.Toolkit.Input;
 using Microsoft.MixedReality.Toolkit.Utilities;
 using System.Collections.Generic;
 using UnityEditor;
@@ -74,71 +72,6 @@ public class HandMeshSurface : FingerSurface
             rightJointMaps[i] = jm;
         }
     }
-
-    protected override void LateUpdate()
-    {
-        base.LateUpdate();
-        
-        /*IMixedRealityInputSystem inputSystem = MixedRealityToolkit.Instance.GetService<IMixedRealityInputSystem>();
-        IMixedRealityHandJointService handJointService = (inputSystem as MixedRealityInputSystem).GetDataProvider<IMixedRealityHandJointService>();
-
-        if (handJointService.IsHandTracked(Handedness.Right))
-        {
-            rightHandObject.SetActive(true);
-
-            Transform wristTransform = handJointService.RequestJointTransform(TrackedHandJoint.Wrist, Handedness.Right);
-
-            foreach (JointMap jm in rightJointMaps)
-            {
-                if (jm.Joint == TrackedHandJoint.None)
-                {
-                    // Move it relative to the wrist
-                    jm.Transform.position = wristTransform.TransformPoint(jm.WristPosOffset);
-                    jm.Transform.rotation = wristTransform.rotation;
-                    jm.Transform.Rotate(jm.WristRotOffset, Space.Self);
-                }
-                else
-                {
-                    Transform jointTransform = handJointService.RequestJointTransform(jm.Joint, Handedness.Right);
-                    //jm.Transform.position = jointTransform.position;
-                    jm.Transform.rotation = jointTransform.rotation * Quaternion.Euler(rightJointRotOffset);
-                }
-            }
-        }
-        else
-        {
-            rightHandObject.SetActive(false);
-        }
-
-        if (handJointService.IsHandTracked(Handedness.Left))
-        {
-            leftHandObject.SetActive(true);
-
-            Transform wristTransform = handJointService.RequestJointTransform(TrackedHandJoint.Wrist, Handedness.Left);
-
-            foreach (JointMap jm in leftJointMaps)
-            {
-                if (jm.Joint == TrackedHandJoint.None)
-                {
-                    // Move it relative to the wrist
-                    jm.Transform.position = wristTransform.TransformPoint(jm.WristPosOffset);
-                    jm.Transform.rotation = wristTransform.rotation;
-                    jm.Transform.Rotate(jm.WristRotOffset, Space.Self);
-                }
-                else
-                {
-                    Transform jointTransform = handJointService.RequestJointTransform(jm.Joint, Handedness.Left);
-                    //jm.Transform.position = jointTransform.position;
-                    jm.Transform.rotation = jointTransform.rotation * Quaternion.Euler(leftJointRotOffset);
-                }
-            }
-        }
-        else
-        {
-            leftHandObject.SetActive(false);
-        }*/
-    }
-
 
 #if UNITY_EDITOR
     [MenuItem("Surfaces/Generate Joint Map")]
