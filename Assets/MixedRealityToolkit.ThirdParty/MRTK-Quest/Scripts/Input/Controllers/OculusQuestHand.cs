@@ -170,7 +170,10 @@ namespace prvncher.MixedReality.Toolkit.OculusQuestInput
 
                 currentPointerPose.Rotation = Quaternion.LookRotation(pointerForward, pointerUp);
 
-                currentGripPose = jointPoses[TrackedHandJoint.Palm];
+                if (TryGetJoint(TrackedHandJoint.Palm, out var palmPose))
+                {
+                    currentGripPose = palmPose;
+                }
 
                 CoreServices.InputSystem?.RaiseSourcePoseChanged(InputSource, this, currentGripPose);
 

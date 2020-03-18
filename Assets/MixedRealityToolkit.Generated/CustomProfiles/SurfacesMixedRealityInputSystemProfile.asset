@@ -22,13 +22,6 @@ MonoBehaviour:
     runtimePlatform: 8
     deviceManagerProfile: {fileID: 0}
   - componentType:
-      reference: Microsoft.MixedReality.Toolkit.OpenVR.Input.OpenVRDeviceManager,
-        Microsoft.MixedReality.Toolkit.Providers.OpenVR
-    componentName: OpenVR Device Manager
-    priority: 0
-    runtimePlatform: 7
-    deviceManagerProfile: {fileID: 0}
-  - componentType:
       reference: Microsoft.MixedReality.Toolkit.Input.HandJointService, Microsoft.MixedReality.Toolkit
     componentName: Hand Joint Service
     priority: 0
@@ -58,7 +51,7 @@ MonoBehaviour:
   enableControllerMapping: 1
   controllerMappingProfile: {fileID: 11400000, guid: 39ded1fd0711a0c448413d0e1ec4f7f3,
     type: 2}
-  controllerVisualizationProfile: {fileID: 11400000, guid: 345c06fdf3732db46b96299bd3cba653,
+  controllerVisualizationProfile: {fileID: 11400000, guid: cec558004a387f640a8ce7ee81ce4335,
     type: 2}
   handTrackingProfile: {fileID: 11400000, guid: 7ec8dc8f5cd08394ba01d8998d7ff5a0,
     type: 2}
