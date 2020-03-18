@@ -45,6 +45,13 @@ namespace Microsoft.MixedReality.Toolkit
                     return mixedRealityPlayspace;
                 }
 
+                var mixedRealityPlaySpaceGo = GameObject.Find("MixedRealityPlayspace");
+                if (mixedRealityPlaySpaceGo != null)
+                {
+                    mixedRealityPlayspace = mixedRealityPlaySpaceGo.transform;
+                    return mixedRealityPlayspace;
+                }
+
                 if (CameraCache.Main.transform.parent == null)
                 {
                     // Create a new mixed reality playspace
