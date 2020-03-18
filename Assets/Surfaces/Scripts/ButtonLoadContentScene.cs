@@ -31,6 +31,12 @@ public class ButtonLoadContentScene : MonoBehaviour
         if (CoreServices.SceneSystem.SceneOperationInProgress)
             return;
 
+        var tutorial = FindObjectOfType<Tutorial>();
+        if (tutorial != null)
+        {
+            tutorial.gameObject.SetActive(false);
+        }
+
         ISceneTransitionService transitions = MixedRealityToolkit.Instance.GetService<ISceneTransitionService>();
         transitions.DoSceneTransition(
             () => CoreServices.SceneSystem.LoadContent(contentName, loadSceneMode),

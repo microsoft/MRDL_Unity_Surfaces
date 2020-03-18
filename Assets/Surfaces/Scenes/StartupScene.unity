@@ -191,6 +191,11 @@ PrefabInstance:
       propertyPath: m_BackGroundColor.b
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2343937678420632361, guid: e855e4c2a827daf45be5e0ca86dd6d05,
+        type: 3}
+      propertyPath: m_BackGroundColor.a
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 2343937678421224693, guid: e855e4c2a827daf45be5e0ca86dd6d05,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -523,7 +528,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Hold up your flat palm to view menu
+  m_text: Hold up your palm flat to view menu
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: afc8299d5d5bbd440a0616c8ecbc7217, type: 2}
   m_sharedMaterial: {fileID: 21340371490990018, guid: afc8299d5d5bbd440a0616c8ecbc7217,
@@ -830,6 +835,10 @@ PrefabInstance:
       propertyPath: facingThreshold
       value: 60
       objectReference: {fileID: 0}
+    - target: {fileID: 171987926, guid: facdc3c48c24dbc45a945047ae74d1dc, type: 3}
+      propertyPath: safeZoneBuffer
+      value: 0.25
+      objectReference: {fileID: 0}
     - target: {fileID: 442644550, guid: facdc3c48c24dbc45a945047ae74d1dc, type: 3}
       propertyPath: m_Mesh
       value: 
@@ -1126,6 +1135,21 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7764038696435409856, guid: facdc3c48c24dbc45a945047ae74d1dc,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7764038696435409856, guid: facdc3c48c24dbc45a945047ae74d1dc,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7764038696435409856, guid: facdc3c48c24dbc45a945047ae74d1dc,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1.5
       objectReference: {fileID: 0}
     - target: {fileID: 7918356405503379751, guid: facdc3c48c24dbc45a945047ae74d1dc,
         type: 3}
