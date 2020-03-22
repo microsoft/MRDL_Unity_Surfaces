@@ -122,6 +122,75 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1001 &1100353122
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 6181469934133660322, guid: d33da9f9de6768a41b1d7a6ad3072d2b,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.15466228
+      objectReference: {fileID: 0}
+    - target: {fileID: 6181469934133660322, guid: d33da9f9de6768a41b1d7a6ad3072d2b,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.2849055
+      objectReference: {fileID: 0}
+    - target: {fileID: 6181469934133660322, guid: d33da9f9de6768a41b1d7a6ad3072d2b,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.4483027
+      objectReference: {fileID: 0}
+    - target: {fileID: 6181469934133660322, guid: d33da9f9de6768a41b1d7a6ad3072d2b,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6181469934133660322, guid: d33da9f9de6768a41b1d7a6ad3072d2b,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6181469934133660322, guid: d33da9f9de6768a41b1d7a6ad3072d2b,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6181469934133660322, guid: d33da9f9de6768a41b1d7a6ad3072d2b,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6181469934133660322, guid: d33da9f9de6768a41b1d7a6ad3072d2b,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6181469934133660322, guid: d33da9f9de6768a41b1d7a6ad3072d2b,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6181469934133660322, guid: d33da9f9de6768a41b1d7a6ad3072d2b,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6181469934133660322, guid: d33da9f9de6768a41b1d7a6ad3072d2b,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6181469934133660332, guid: d33da9f9de6768a41b1d7a6ad3072d2b,
+        type: 3}
+      propertyPath: m_Name
+      value: OculusOverlayHelper (1)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: d33da9f9de6768a41b1d7a6ad3072d2b, type: 3}
 --- !u!1001 &4838486902953754388
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -129,6 +198,21 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 198427077006217297, guid: ff776c4448d65a845bc02edaf7b97b36,
+        type: 3}
+      propertyPath: testMesh
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 198427077006217297, guid: ff776c4448d65a845bc02edaf7b97b36,
+        type: 3}
+      propertyPath: wispSize.x
+      value: 0.01
+      objectReference: {fileID: 0}
+    - target: {fileID: 198427077006217297, guid: ff776c4448d65a845bc02edaf7b97b36,
+        type: 3}
+      propertyPath: wispSize.y
+      value: 0.015
+      objectReference: {fileID: 0}
     - target: {fileID: 2384000634853033559, guid: ff776c4448d65a845bc02edaf7b97b36,
         type: 3}
       propertyPath: m_Name
@@ -188,21 +272,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 198427077006217297, guid: ff776c4448d65a845bc02edaf7b97b36,
-        type: 3}
-      propertyPath: testMesh
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 198427077006217297, guid: ff776c4448d65a845bc02edaf7b97b36,
-        type: 3}
-      propertyPath: wispSize.x
-      value: 0.01
-      objectReference: {fileID: 0}
-    - target: {fileID: 198427077006217297, guid: ff776c4448d65a845bc02edaf7b97b36,
-        type: 3}
-      propertyPath: wispSize.y
-      value: 0.015
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ff776c4448d65a845bc02edaf7b97b36, type: 3}

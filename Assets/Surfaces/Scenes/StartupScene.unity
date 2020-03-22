@@ -396,7 +396,7 @@ MonoBehaviour:
   noDepthBufferTesting: 0
   currentOverlayShape: 0
   textures:
-  - {fileID: 2800000, guid: 5488e4b6a47989e4498e518e89155aa0, type: 3}
+  - {fileID: 2800000, guid: ea372735d1677f245a5832b1c627be72, type: 3}
   - {fileID: 0}
 --- !u!4 &726113688
 Transform:

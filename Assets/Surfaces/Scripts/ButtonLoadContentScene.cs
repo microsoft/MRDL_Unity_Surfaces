@@ -5,6 +5,7 @@
 using System.Runtime.CompilerServices;
 using Microsoft.MixedReality.Toolkit;
 using Microsoft.MixedReality.Toolkit.Extensions.SceneTransitions;
+using Microsoft.MixedReality.Toolkit.Utilities;
 using MRDL;
 using UnityEngine;
 using UnityEngine.SceneManagement;
@@ -33,8 +34,21 @@ public class ButtonLoadContentScene : MonoBehaviour
 
     private void Update()
     {
+        UpdateOverlayPos();
+
         if (loadOnKeyPress && Input.GetKeyDown(keyCode))
             LoadContent();
+    }
+
+    private void UpdateOverlayPos()
+    {
+        if (ovrOverlay != null)
+        {
+            Vector3 projectedForward = Vector3.ProjectOnPlane(CameraCache.Main.transform.forward, Vector3.up);
+            ovrOverlay.transform.position = CameraCache.Main.transform.position + projectedForward - Vector3.up * 0.5f;
+            ovrOverlay.transform.rotation = Quaternion.LookRotation(projectedForward, Vector3.up);
+            ovrOverlay.transform.localScale = Vector3.one * 2f;
+        }
     }
 
     public void LoadContent()
@@ -51,6 +65,7 @@ public class ButtonLoadContentScene : MonoBehaviour
 
         if (ovrOverlay != null)
         {
+            UpdateOverlayPos();
             ovrOverlay.enabled = true;
         }
 
