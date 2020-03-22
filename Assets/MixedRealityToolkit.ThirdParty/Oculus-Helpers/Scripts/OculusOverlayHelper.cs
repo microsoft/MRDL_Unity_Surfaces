@@ -31,10 +31,13 @@ namespace prvncher.OculusHelpers
 
         private void UpdateOverlayPos()
         {
-            Vector3 projectedForward = Vector3.ProjectOnPlane(CameraCache.Main.transform.forward, Vector3.up);
-            overlayInstance.transform.position = CameraCache.Main.transform.position + projectedForward - Vector3.up * 0.5f;
-            overlayInstance.transform.rotation = Quaternion.LookRotation(projectedForward, Vector3.up);
-            overlayInstance.transform.localScale = Vector3.one * 2f;
+            if (overlayInstance != null && overlayInstance.isActiveAndEnabled)
+            {
+                Vector3 projectedForward = Vector3.ProjectOnPlane(CameraCache.Main.transform.forward, Vector3.up);
+                overlayInstance.transform.position = CameraCache.Main.transform.position + projectedForward - Vector3.up * 0.5f;
+                overlayInstance.transform.rotation = Quaternion.LookRotation(projectedForward, Vector3.up);
+                overlayInstance.transform.localScale = Vector3.one * 2f;
+            }
         }
 
         private void Update()

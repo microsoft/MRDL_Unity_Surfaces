@@ -42,7 +42,7 @@ public class ButtonLoadContentScene : MonoBehaviour
 
     private void UpdateOverlayPos()
     {
-        if (ovrOverlay != null)
+        if (ovrOverlay != null && ovrOverlay.isActiveAndEnabled)
         {
             Vector3 projectedForward = Vector3.ProjectOnPlane(CameraCache.Main.transform.forward, Vector3.up);
             ovrOverlay.transform.position = CameraCache.Main.transform.position + projectedForward - Vector3.up * 0.5f;
