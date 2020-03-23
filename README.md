@@ -1,8 +1,8 @@
-# Mixed Reality Design Labs
-This repo is where Microsoft's Windows Mixed Reality Design team publishes sample apps and experiments.
+This is a port of Microsoft's surfaces experiment, designed to run on Oculus Quest.
+Check the [releases](https://github.com/provencher/MR_Surfaces_Oculus/releases) page for the latest apk to download.
 
 # Surfaces
-Surfaces is an open-source sample app from Microsoft's Mixed Reality Design Labs. It demonstrates how to use **[Mixed Reality Toolkit(MRTK)](https://github.com/Microsoft/MixedRealityToolkit-Unity)**'s input system and building blocks to create an app experience for HoloLens 2. In this project, you can find the examples of:
+Surfaces is an open-source sample app from Microsoft's Mixed Reality Design Labs. It demonstrates how to use **[Mixed Reality Toolkit(MRTK)](https://github.com/Microsoft/MixedRealityToolkit-Unity)**'s input system and building blocks to create an app experience for HoloLens 2, and now Oculus Quest. In this project, you can find the examples of:
 - Use MRTK's **[Input System](https://microsoft.github.io/MixedRealityToolkit-Unity/Documentation/Input/Overview.html)**, specifically hand / joint tracking.
 - Use MRTK's **[Standard Shader](https://microsoft.github.io/MixedRealityToolkit-Unity/Documentation/README_MRTKStandardShader.html)** for performant graphics.
 
@@ -25,6 +25,7 @@ The project is based on [**MRTK v2.1.0**](https://github.com/microsoft/MixedReal
 
 # Supported device
 - [HoloLens 2](https://www.hololens.com)
+- [Oculus Quest](https://github.com/provencher/MRTK-Quest)
 
 
 # More from Mixed Reality Design Labs #

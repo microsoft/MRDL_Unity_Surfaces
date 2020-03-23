@@ -1,0 +1,11 @@
+
+=== Wed Mar 18 12:29:49 2020
+
+Packages were changed.
+Update Mode: updateDependencies
+
+The following packages were updated:
+  com.unity.ide.vscode from version 1.0.7 to 1.1.4
+  com.unity.xr.oculus.standalone from version 1.38.1 to 2.38.4
+  com.unity.xr.openvr.standalone from version 1.0.5 to 2.0.5
+  com.unity.xr.windowsmr.metro from version 3.0.2 to 4.2.1

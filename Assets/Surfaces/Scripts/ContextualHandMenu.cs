@@ -79,7 +79,7 @@ namespace Microsoft.MRDL
 
             displayMode = DisplayModeEnum.Opening;
             timeOpened = Time.time;
-            ActivatedOnce = true;
+            //ActivatedOnce = true;
         }
 
         public void CloseMenu()

@@ -122,6 +122,75 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1001 &1100353122
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 6181469934133660322, guid: d33da9f9de6768a41b1d7a6ad3072d2b,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.15466228
+      objectReference: {fileID: 0}
+    - target: {fileID: 6181469934133660322, guid: d33da9f9de6768a41b1d7a6ad3072d2b,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.2849055
+      objectReference: {fileID: 0}
+    - target: {fileID: 6181469934133660322, guid: d33da9f9de6768a41b1d7a6ad3072d2b,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.4483027
+      objectReference: {fileID: 0}
+    - target: {fileID: 6181469934133660322, guid: d33da9f9de6768a41b1d7a6ad3072d2b,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6181469934133660322, guid: d33da9f9de6768a41b1d7a6ad3072d2b,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6181469934133660322, guid: d33da9f9de6768a41b1d7a6ad3072d2b,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6181469934133660322, guid: d33da9f9de6768a41b1d7a6ad3072d2b,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6181469934133660322, guid: d33da9f9de6768a41b1d7a6ad3072d2b,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6181469934133660322, guid: d33da9f9de6768a41b1d7a6ad3072d2b,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6181469934133660322, guid: d33da9f9de6768a41b1d7a6ad3072d2b,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6181469934133660322, guid: d33da9f9de6768a41b1d7a6ad3072d2b,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6181469934133660332, guid: d33da9f9de6768a41b1d7a6ad3072d2b,
+        type: 3}
+      propertyPath: m_Name
+      value: OculusOverlayHelper (2)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: d33da9f9de6768a41b1d7a6ad3072d2b, type: 3}
 --- !u!1001 &1700714659847994980
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -129,6 +198,29 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 50822006, guid: 26d3198f3f58cf8438b6565f6454daf6, type: 3}
+      propertyPath: m_RootOrder
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 1540309516, guid: 26d3198f3f58cf8438b6565f6454daf6, type: 3}
+      propertyPath: m_RootOrder
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 453956722532845244, guid: 26d3198f3f58cf8438b6565f6454daf6,
+        type: 3}
+      propertyPath: m_Name
+      value: FlockAsteroid2
+      objectReference: {fileID: 0}
+    - target: {fileID: 839997026224465575, guid: 26d3198f3f58cf8438b6565f6454daf6,
+        type: 3}
+      propertyPath: m_Name
+      value: FlockAsteroid9
+      objectReference: {fileID: 0}
+    - target: {fileID: 869009316882462170, guid: 26d3198f3f58cf8438b6565f6454daf6,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 1700714660003373964, guid: 26d3198f3f58cf8438b6565f6454daf6,
         type: 3}
       propertyPath: m_Name
@@ -189,113 +281,35 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 1540309516, guid: 26d3198f3f58cf8438b6565f6454daf6, type: 3}
-      propertyPath: m_RootOrder
-      value: 9
-      objectReference: {fileID: 0}
-    - target: {fileID: 50822006, guid: 26d3198f3f58cf8438b6565f6454daf6, type: 3}
-      propertyPath: m_RootOrder
-      value: 10
-      objectReference: {fileID: 0}
-    - target: {fileID: 5780624487307460835, guid: 26d3198f3f58cf8438b6565f6454daf6,
-        type: 3}
-      propertyPath: m_Name
-      value: FlockAsteroid1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3151200461561911802, guid: 26d3198f3f58cf8438b6565f6454daf6,
-        type: 3}
-      propertyPath: m_RootOrder
-      value: 11
-      objectReference: {fileID: 0}
-    - target: {fileID: 453956722532845244, guid: 26d3198f3f58cf8438b6565f6454daf6,
-        type: 3}
-      propertyPath: m_Name
-      value: FlockAsteroid2
-      objectReference: {fileID: 0}
-    - target: {fileID: 9065588253929480101, guid: 26d3198f3f58cf8438b6565f6454daf6,
-        type: 3}
-      propertyPath: m_RootOrder
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3433842609611741783, guid: 26d3198f3f58cf8438b6565f6454daf6,
-        type: 3}
-      propertyPath: m_Name
-      value: FlockAsteroid3
-      objectReference: {fileID: 0}
-    - target: {fileID: 6063185328591668046, guid: 26d3198f3f58cf8438b6565f6454daf6,
-        type: 3}
-      propertyPath: m_RootOrder
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 8614506586068200643, guid: 26d3198f3f58cf8438b6565f6454daf6,
-        type: 3}
-      propertyPath: m_Name
-      value: FlockAsteroid4
-      objectReference: {fileID: 0}
-    - target: {fileID: 869009316882462170, guid: 26d3198f3f58cf8438b6565f6454daf6,
-        type: 3}
-      propertyPath: m_RootOrder
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 3665381536026660937, guid: 26d3198f3f58cf8438b6565f6454daf6,
-        type: 3}
-      propertyPath: m_Name
-      value: FlockAsteroid5
-      objectReference: {fileID: 0}
-    - target: {fileID: 5286586398478305616, guid: 26d3198f3f58cf8438b6565f6454daf6,
-        type: 3}
-      propertyPath: m_RootOrder
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 4801449247583552628, guid: 26d3198f3f58cf8438b6565f6454daf6,
-        type: 3}
-      propertyPath: m_Name
-      value: FlockAsteroid6
-      objectReference: {fileID: 0}
-    - target: {fileID: 4116742926939970925, guid: 26d3198f3f58cf8438b6565f6454daf6,
-        type: 3}
-      propertyPath: m_RootOrder
-      value: 4
-      objectReference: {fileID: 0}
     - target: {fileID: 2028667724637819880, guid: 26d3198f3f58cf8438b6565f6454daf6,
         type: 3}
       propertyPath: m_Name
       value: FlockAsteroid7
-      objectReference: {fileID: 0}
-    - target: {fileID: 7468359939233499889, guid: 26d3198f3f58cf8438b6565f6454daf6,
-        type: 3}
-      propertyPath: m_RootOrder
-      value: 5
-      objectReference: {fileID: 0}
-    - target: {fileID: 5969832342150641240, guid: 26d3198f3f58cf8438b6565f6454daf6,
-        type: 3}
-      propertyPath: m_Name
-      value: FlockAsteroid8
       objectReference: {fileID: 0}
     - target: {fileID: 2979885028111413057, guid: 26d3198f3f58cf8438b6565f6454daf6,
         type: 3}
       propertyPath: m_RootOrder
       value: 6
       objectReference: {fileID: 0}
-    - target: {fileID: 839997026224465575, guid: 26d3198f3f58cf8438b6565f6454daf6,
-        type: 3}
-      propertyPath: m_Name
-      value: FlockAsteroid9
-      objectReference: {fileID: 0}
-    - target: {fileID: 8082821824480378814, guid: 26d3198f3f58cf8438b6565f6454daf6,
+    - target: {fileID: 3151200461561911802, guid: 26d3198f3f58cf8438b6565f6454daf6,
         type: 3}
       propertyPath: m_RootOrder
-      value: 7
+      value: 11
       objectReference: {fileID: 0}
-    - target: {fileID: 5040085685335427099, guid: 26d3198f3f58cf8438b6565f6454daf6,
+    - target: {fileID: 3433842609611741783, guid: 26d3198f3f58cf8438b6565f6454daf6,
         type: 3}
       propertyPath: m_Name
-      value: FlockAsteroid10
+      value: FlockAsteroid3
       objectReference: {fileID: 0}
-    - target: {fileID: 4499743079755944194, guid: 26d3198f3f58cf8438b6565f6454daf6,
+    - target: {fileID: 3665381536026660937, guid: 26d3198f3f58cf8438b6565f6454daf6,
+        type: 3}
+      propertyPath: m_Name
+      value: FlockAsteroid5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4116742926939970925, guid: 26d3198f3f58cf8438b6565f6454daf6,
         type: 3}
       propertyPath: m_RootOrder
-      value: 8
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 4297296133971936440, guid: 26d3198f3f58cf8438b6565f6454daf6,
         type: 3}
@@ -346,6 +360,41 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Parameters.colorGradient.key0.b
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4499743079755944194, guid: 26d3198f3f58cf8438b6565f6454daf6,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 4801449247583552628, guid: 26d3198f3f58cf8438b6565f6454daf6,
+        type: 3}
+      propertyPath: m_Name
+      value: FlockAsteroid6
+      objectReference: {fileID: 0}
+    - target: {fileID: 5040085685335427099, guid: 26d3198f3f58cf8438b6565f6454daf6,
+        type: 3}
+      propertyPath: m_Name
+      value: FlockAsteroid10
+      objectReference: {fileID: 0}
+    - target: {fileID: 5286586398478305616, guid: 26d3198f3f58cf8438b6565f6454daf6,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 5780624487307460835, guid: 26d3198f3f58cf8438b6565f6454daf6,
+        type: 3}
+      propertyPath: m_Name
+      value: FlockAsteroid1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5969832342150641240, guid: 26d3198f3f58cf8438b6565f6454daf6,
+        type: 3}
+      propertyPath: m_Name
+      value: FlockAsteroid8
+      objectReference: {fileID: 0}
+    - target: {fileID: 6063185328591668046, guid: 26d3198f3f58cf8438b6565f6454daf6,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6223956912679258354, guid: 26d3198f3f58cf8438b6565f6454daf6,
         type: 3}
@@ -442,10 +491,30 @@ PrefabInstance:
       propertyPath: despawnedGradient.ctime6
       value: 65535
       objectReference: {fileID: 0}
+    - target: {fileID: 7468359939233499889, guid: 26d3198f3f58cf8438b6565f6454daf6,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8082821824480378814, guid: 26d3198f3f58cf8438b6565f6454daf6,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 8614506586068200643, guid: 26d3198f3f58cf8438b6565f6454daf6,
+        type: 3}
+      propertyPath: m_Name
+      value: FlockAsteroid4
+      objectReference: {fileID: 0}
     - target: {fileID: 8633322821517048097, guid: 26d3198f3f58cf8438b6565f6454daf6,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: eb4f27d76144dbe41960e46f6975b50b, type: 2}
+    - target: {fileID: 9065588253929480101, guid: 26d3198f3f58cf8438b6565f6454daf6,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 26d3198f3f58cf8438b6565f6454daf6, type: 3}
