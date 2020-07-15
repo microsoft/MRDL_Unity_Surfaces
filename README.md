@@ -16,6 +16,9 @@ You can use this project's components to create your own mixed reality app exper
 <img src="External/ReadMeImages/MRDL_Surfaces_6.jpg" alt="Surfaces">
 <img src="External/ReadMeImages/MRDL_Surfaces_7.jpg" alt="Surfaces">
 
+# Session video from Mixed Reality Dev Days 2020
+Learn about design & development story.
+https://channel9.msdn.com/Shows/Docs-Mixed-Reality/Learnings-from-the-MR-Surfaces-App
 
 # Supported Unity version
 The current supported version of Unity is [**Unity 2019.3.x**](https://unity3d.com/unity/qa/lts-releases?version=2019.2). 
